@@ -1,0 +1,123 @@
+html {
+	font-family: "Myriad Pro", arial;
+	font-size: 14px;
+}
+	body {
+		margin: 0 auto;
+		padding: 0;
+		width: 1024px;
+	}
+		header {
+			display: block;
+			height: 100px;
+			font-size: 175%;
+			font-weight: bold;
+			line-height: 100px;
+			padding: 0 15px;
+		}
+			header a {
+				text-decoration: none;
+				color: #111;
+			}
+		nav {
+			display: block;
+			height: 40px;
+			background: #000;
+		}
+			nav > a {
+				display: block;
+				float: left;
+				padding: 0 25px;
+				font-weight: bold;
+				text-decoration: none;
+				color: #fff;
+				line-height: 40px;
+				height: 40px;
+				font-size: 115%;
+			}
+				nav > a:hover {
+					background: #444;
+				}
+		#content {
+			padding: 15px 0;
+		}
+			#content a {
+				color: #069;
+				text-decoration: none;
+			}
+				#content a:hover { color: #69e; }
+		footer {
+			display: block;
+			height: 50px;
+			line-height: 50px;
+			color: #777;
+			font-size: 90%;
+			text-align: center;
+		}
+		
+		
+		/* Forms */
+		form > fieldset {
+			border: 1px solid #ddd;
+			margin: 15px 0;
+			padding: 5px;
+			border-radius: 5px;
+		}
+			form > fieldset > legend {
+				color: #666;
+				font-size: 90%;
+				padding: 0 5px;
+			}
+			form > fieldset > ol {
+				list-style: none;
+				margin: 5px;
+				padding: 0;
+			}
+				form > fieldset > ol > li {
+					padding: 5px 0;
+				}
+				form label {
+					display: block;
+					font-weight: bold;
+					margin-bottom: 3px;
+				}
+				form input,
+				form select,
+				form textarea {
+					border: 1px solid #222;
+					border-radius: 5px;
+					padding: 1px 3px;
+					background: #f3f3f3;
+				}
+				form input,
+				form select { font-size: 115%; }
+			form > p {
+				padding: 15px 0;
+			}
+				form > p > button {
+					background: #000;
+					color: #fff;
+					padding: 5px 15px;
+					border-radius: 5px;
+					border: none;
+					cursor: pointer;
+					font-size: 100%;
+				}
+					form > p > button:hover {
+						background: #222;
+					}
+					
+		/* tables */
+		table {
+			border-collapse: collapse;
+			border: 1px solid #ccc;
+			width: 400px;
+			margin: 0 auto;
+		}
+			table td,
+			table th {
+				text-align: left;
+				border-bottom: 1px solid #ccc;
+				border-right: 1px solid #ccc;
+				padding: 5px 8px;
+			}

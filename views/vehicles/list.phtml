@@ -1,0 +1,13 @@
+<p style="text-align: right; padding-right: 25px;"><a href="/vehicles/add">+ Add Vehicle</a></p>
+<table>
+	<tr>
+		<th>Vehicle</th>
+		<th>Actions</th>
+	</tr>
+<?php foreach( $this->vehicles as $vehicleID => $vehicleName ) { ?>
+	<tr>
+		<td><?php echo $vehicleName; ?></td>
+		<td><a href="/vehicles/edit?id=<?php echo $vehicleID; ?>">Edit</a></td>
+	</tr>
+<?php } ?>
+</table>
